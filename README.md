@@ -1,12 +1,12 @@
-=== PassportPCI API PHP Wrapper ===
+# PassportPCI API PHP Wrapper
 
 You can sign up for a PassportPCI account at [passportpci.com](https://passportpci.com)
 
-== Requirements ==
+## Requirements
 
 PHP 5.2 or later
 
-== Setup ==
+## Setup
 
 Obtain the latest version of the PassportPCI PHP bindings with:
 
@@ -15,7 +15,7 @@ To use the bindings, add the following to your PHP script:
 
 require_once("/path/to/passportpci-php/lib/PassportPCI.class.php");
 
-== Getting Started ==
+## Getting Started
 	
 Simple usage looks like:
 
@@ -31,8 +31,6 @@ $resp = PassportPCI::getCardToken(array(
 
 print_r($resp);
 
-== Documentation ==
+## Documentation
 
 Please see [PassportPCI API docs](https://api.passportpci.com/docs/) for up-to-date documentation.
-
-== Tests ==
