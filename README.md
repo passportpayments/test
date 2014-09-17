@@ -19,6 +19,7 @@ require_once("/path/to/passportpci-php/lib/PassportPCI.class.php");
 	
 Simple usage looks like:
 
+```php
 PassportPCI::setClientId("9K7xN98Nny");
 PassportPCI::setClientSecret("9e9Q66evykXR8D63");
 
@@ -30,6 +31,7 @@ $resp = PassportPCI::getCardToken(array(
 );
 
 print_r($resp);
+```
 
 ## Documentation
 
