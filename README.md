@@ -10,10 +10,15 @@ PHP 5.2 or later
 
 Obtain the latest version of the PassportPCI PHP bindings with:
 
+```
 git clone https://github.com/passportpci/passportpci-php
+```
+
 To use the bindings, add the following to your PHP script:
 
+```
 require_once("/path/to/passportpci-php/lib/PassportPCI.class.php");
+```
 
 ## Getting Started
 	
@@ -36,3 +41,6 @@ print_r($resp);
 ## Documentation
 
 Please see [PassportPCI API docs](https://api.passportpci.com/docs/) for up-to-date documentation.
+
+## Tests
+
